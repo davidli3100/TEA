@@ -1,0 +1,440 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+.button-donate {
+	background-color: #01c152;
+}
+
+.button-donate:hover {
+	background-color: #0c8d42;
+}
+
+strong { font-weight: 500; }
+
+a, a:hover, a:focus {
+	color: #6eba3c; text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+h1, h2 { margin-top: 10px; font-family: 'Josefin Sans', sans-serif; font-size: 48px; font-weight: 300; color: #555; line-height: 56px; }
+h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300; color: #555; line-height: 40px; }
+
+img { max-width: 100%; }
+
+.medium-paragraph { font-size: 18px; line-height: 34px; }
+
+.colored { color: #6eba3c; }
+
+::-moz-selection { background: #6eba3c; color: #fff; text-shadow: none; }
+::selection { background: #6eba3c; color: #fff; text-shadow: none; }
+
+/** writer home **/
+.writer-intro-home {
+	width: 8rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.divider-author-image { padding: 5px 0 15px 0; }
+.divider-author-image .line { width: 160px; margin: 0 auto; border-bottom: 1px dashed #ccc; }
+
+/** post card **/
+
+
+.post-card-div {
+	margin-left: 16rem;
+	background-color: #fff !important;
+	margin-top: 1rem;
+	margin-bottom: 4rem;
+	box-shadow: 10px 10px 100px  #b23bbd;
+	padding-left: 0px !important;
+	padding-right: 0px !important; 
+
+}
+
+@media (min-width: 1px) and (max-width: 1200px) {
+	.post-card-div {
+		width: 100% !important; 
+		margin-left: 0px; 
+		background-color: #fff !important;
+		margin-top: 1rem;
+		margin-bottom: 4rem;
+		box-shadow: 10px 10px 100px  #b23bbd;
+		padding-left: 0px !important;
+		padding-right: 0px !important; 
+		}
+}
+
+.post-card-image-left-div {
+	background-image: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/9240915/Screen_Shot_2017_09_13_at_4.21.15_PM.png");
+	min-height: 420px;
+	background-size: cover;
+	object-fit: none;
+	object-position: center;
+	background-position: center center; 
+	padding-left: 0px !important;
+	margin-top: 2rem;
+}
+
+.post-card-image-right-div {
+	background-image: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/9240915/Screen_Shot_2017_09_13_at_4.21.15_PM.png");
+	min-height: 420px;
+	background-size: cover;
+	object-fit: none;
+	object-position: center;
+	background-position: center center; 
+	padding-right: 0px !important;
+	margin-top: 2rem; 
+}
+
+
+
+.post-card-text-div {
+	margin-top: 2.5vh;
+	padding-right: 5rem;
+	padding-left: 4rem;
+	margin-bottom: 2.5vh;
+}
+
+.post-title {
+	font-size: 4rem !important;
+	font-weight: 900 !important;
+	color: #000 !important;
+	margin-bottom: 0px;
+	padding-top: 2rem; 
+}
+
+.author-title {
+	padding-top: 0.6rem;
+	padding-bottom: 3.3rem;
+}
+
+.author-post-image {
+	margin-right: 1rem;
+	height: 3rem;
+	width: 3rem;
+}
+.post-text-preview{
+	padding-bottom: 2rem;
+}
+
+.btn-read-more {
+	background-color: transparent;
+	border-left-color: purple;
+	border-top-color:  orange;
+	border-right-color: green;
+	border-bottom-color: red;
+	border-radius: 10px;
+	border-width: 3px; 
+	margin-bottom: 1.5rem; 
+}
+
+.raise {
+	--hover: #77157a;
+  }
+
+  button {
+	color: var(--color);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+  }
+  button:hover, button:focus {
+	border-color: var(--hover);
+	color: #fff;
+  }
+
+  .raise:hover,
+  .raise:focus {
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	-webkit-transform: translateY(-0.25em);
+			transform: translateY(-0.25em);
+  }
+/***** General style, all sections *****/
+
+.section-container { margin: 0 auto; padding-bottom: 80px; }
+.section-description { margin-top: 60px; padding-bottom: 10px; }
+.section-description p { margin-top: 20px; padding: 0 120px; }
+
+
+/***** Divider *****/
+
+.divider-1 { padding: 25px 0 15px 0; }
+.divider-1 .line { width: 160px; margin: 0 auto; border-bottom: 1px dashed #ccc; }
+
+
+/***** Top menu *****/
+
+.navbar-title {
+	margin-top: 25rem;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color: #fff;
+	font-weight: 900;
+	font-size: 2.2rem;
+	font-family: "Roboto";
+}
+
+.navbar {
+	margin-bottom: 0;
+	padding-top: 0;
+	background: #fff;
+	border: 0;
+	-moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
+}
+.navbar-no-bg {
+	padding-top: 10px; background: none;
+	-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+
+ul.navbar-nav {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	color: #888;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+ul.navbar-nav li a { background: none; color: #888; border: 0; }
+ul.navbar-nav li a:hover { background: none; color: #aaa; border: 0; }
+ul.navbar-nav li a:focus { background: none; color: #aaa; outline: 0; border: 0; }
+
+.navbar-no-bg ul.navbar-nav { color: #fff; }
+.navbar-no-bg ul.navbar-nav li a { color: #fff; }
+.navbar-no-bg ul.navbar-nav li a:hover { color: #ddd; }
+.navbar-no-bg ul.navbar-nav li a:focus { color: #ddd; }
+
+ul.navbar-nav li a.btn-link-3 {
+	position: relative;
+	display: inline-block;
+	margin: 9px 0 0 15px;
+	padding: 6px 15px;
+	background: #6eba3c;
+	border: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
+}
+ul.navbar-nav li a.btn-link-3:hover,
+ul.navbar-nav li a.btn-link-3:focus,
+ul.navbar-nav li a.btn-link-3:active,
+ul.navbar-nav li a.btn-link-3:active:focus { outline: 0; background: #63a736; color: #fff; }
+
+.navbar-brand {
+	width: 202px;
+	background: url(../img/TEAblacktext.png) left center no-repeat;
+	text-indent: -99999px;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0; }
+
+.navbar-no-bg .navbar-brand { background-image: url(../img/TEAwhitetext@2x.png); }
+
+.navbar-toggle .icon-bar { background: #555; }
+
+
+/***** Top content *****/
+
+.top-content { padding: 120px 0 150px 0; }
+
+.top-content .text { padding-top: 60px; color: #fff; }
+.top-content .text h1 { color: #fff; }
+
+.top-content .description { margin: 30px 0 10px 0; }
+.top-content .description p { opacity: 0.8; }
+.top-content .description a { color: #fff; border-bottom: 1px dotted #fff; }
+.top-content .description a:hover, .top-content .description a:focus { color: #fff; border: 0; }
+
+
+/***** Features *****/
+
+.features-box { margin-top: 30px; text-align: left; }
+.features-box .features-box-icon { font-size: 60px; color: #6eba3c; line-height: 60px; text-align: center; }
+.features-box h3 { margin-top: 0; padding: 0 0 10px 0; }
+
+
+/***** Footer *****/
+
+.socialText {
+	margin-left: 3rem; 
+	color: #fff !important;
+	font-size: 2.8rem; 
+	line-height: 4rem; 
+	font-weight: 400; 
+}
+
+footer div.social-media-links {
+	padding-top: 1rem; 
+	background: transparent;
+	overflow: hidden;
+	padding-bottom: 4px;
+	text-align: center;
+  }
+  footer div.social-media-links ul {
+	margin: 0;
+	padding: 0;
+  }
+  footer div.social-media-links li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+  }
+  footer div.social-media-links a {
+	border-bottom: 0px solid rgba(0, 0, 0, 0.95);
+	border-radius: 4px;
+	box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 24px 24px rgba(0, 0, 0, 0), 0 36px 36px rgba(0, 0, 0, 0), 0 64px 64px rgba(0, 0, 0, 0), 0 64px 128px rgba(0, 0, 0, 0), 0 120px 0 rgba(0, 0, 0, 0), 0 86px 8px 6px rgba(0, 0, 0, 0);
+	display: inline-block;
+	height: 30px;
+	padding: 20px;
+	position: relative;
+	-webkit-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+	width: 30px;
+  }
+  footer div.social-media-links a svg {
+	left: 20px;
+	position: absolute;
+	top: 20px;
+	height: 30px;
+	width: 30px;
+  }
+  footer div.social-media-links a svg.glow path,
+  footer div.social-media-links a svg.glow circle {
+	fill: rgba(0, 0, 0, 0);
+  }
+  footer div.social-media-links a svg path,
+  footer div.social-media-links a svg circle {
+	fill: #ffffff;
+	-webkit-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+  }
+  footer div.social-media-links a:hover {
+	-webkit-transform: translateY(-4px);
+			transform: translateY(-4px);
+	box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.05), 0 24px 24px rgba(0, 0, 0, 0.05), 0 36px 36px rgba(0, 0, 0, 0.05), 0 64px 64px rgba(0, 0, 0, 0.15), 0 64px 128px rgba(0, 0, 0, 0.15), 0 86px 8px 6px rgba(14, 186, 199, 0.25), 0 83px 4px 0px rgba(14, 186, 199, 0.95);
+  }
+  footer div.social-media-links a:hover svg.glow {
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><f…ter id="filter"><feGaussianBlur stdDeviation="10" /></filter></svg>#filter');
+	-webkit-filter: blur(2px);
+			filter: blur(2px);
+  }
+  footer div.social-media-links a:hover svg.glow path,
+  footer div.social-media-links a:hover svg.glow circle {
+	fill: rgba(14, 186, 199, 0.6);
+  }
+  footer div.social-media-links a:hover svg path,
+  footer div.social-media-links a:hover svg circle {
+	fill: #0ebac7;
+  }
+  
+
+
+
+footer { 
+	margin-top: 5rem; 
+	padding: 40px 0 45px 0;
+	background-image: url(../img/backgrounds/RainbowBanner.png);
+	background-size: cover;
+	object-fit: none; 
+	object-position: center;
+	background-position: center center;
+	height: 300px; 
+ }
+
+.footer-copyright { padding-top: 22rem; color: #fff;}
+.footer-copyright a { color: rgb(255, 255, 255); border-bottom: 1px dotted rgb(255, 255, 255); }
+.footer-copyright a:hover, .footer-copyright a:focus { color: rgb(255, 255, 255); border: 0; }
+
+
+
+/***** MEDIA QUERIES *****/
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.section-description p { padding: 0; }
+	
+	.features-box .features-box-icon { font-size: 50px; line-height: 50px; }
+
+}
+
+@media (max-width: 767px) {
+	
+	.navbar { padding-top: 0; background: #fff; }
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 15px; }
+	.navbar-collapse { border: 0; }
+	.navbar-toggle { border-color: transparent; }
+	ul.navbar-nav li a.btn-link-3 { margin: 10px; }
+	
+	.navbar-no-bg {
+		-moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	}
+	.navbar-no-bg .navbar-brand { background-image: url(../img/TEAblacktext.png); }
+	
+	.navbar-no-bg ul.navbar-nav { color: #888; }
+	.navbar-no-bg ul.navbar-nav li a { color: #888; }
+	.navbar-no-bg ul.navbar-nav li a:hover { color: #aaa; }
+	.navbar-no-bg ul.navbar-nav li a:focus { color: #aaa; }
+	
+	.navbar-no-bg ul.navbar-nav li a.btn-link-3 { color: #fff; }
+	.navbar-no-bg ul.navbar-nav li a.btn-link-3:hover,
+	.navbar-no-bg ul.navbar-nav li a.btn-link-3:focus,
+	.navbar-no-bg ul.navbar-nav li a.btn-link-3:active,
+	.navbar-no-bg ul.navbar-nav li a.btn-link-3:active:focus { color: #fff; }
+	
+	/* end navbar */
+	
+	.section-description p { padding: 0; }
+	
+	.top-content { padding: 40px 0 60px 0; }
+	
+	.features-box { text-align: center; }
+	.features-box h3 { margin-top: 5px; padding-top: 10px; }
+
+}
+
+@media (max-width: 415px) {
+	
+	h1, h2 { font-size: 36px; }
+
+}
+
+
+/* Retina-ize images/icons */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+	
+	/* logo */
+    .navbar-brand {
+    	background-image: url(../img/TEAblacktext@2x.png) !important; background-repeat: no-repeat !important; background-size: 102px 32px !important;
+    }
+    
+    .navbar-no-bg .navbar-brand { background-image: url(../img/TEAblacktext@2x.png); }
+	
+}
