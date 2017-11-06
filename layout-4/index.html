@@ -15,7 +15,8 @@
         <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
   
-		
+		    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+				
 
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/favicon.png">
@@ -112,7 +113,7 @@
         </div>
 		<!-- post card -->
 			<div class="row">
-				<div class="post-card-div col-sm-10">
+				<div class="post-card-div post-left col-sm-10">
 						<div class="post-card-image-left-div col-sm-4">
 						</div>
 						<div class="post-card-text-div col-sm-8">
@@ -136,7 +137,7 @@
 
 				<!-- post card -->
 			<div class=" row">
-					<div class="post-card-div col-sm-10">
+					<div class="post-card-div post-right col-sm-10">
 							
 							<div class="post-card-text-div col-sm-8">
 								<div class="post-title">
@@ -262,7 +263,48 @@
 							  </div>
 						  </div>
 						</div>
-					  </div>
+						</div>
+						
+
+
+
+						<script>
+							window.sr = ScrollReveal();
+					
+							sr.reveal('.post-left', {
+								duration: 2000,
+								origin:'left',
+								distance:'300px'
+							});
+							sr.reveal('.post-right', {
+								duration: 2000,
+								origin:'right',
+								distance:'300px'
+							});
+							sr.reveal('.btn-read-more', {
+								duration: 2000,
+								delay: 2000,
+								origin:'bottom'
+							});
+					</script>
+			
+					<script>
+					$(function() {
+						// Smooth Scrolling
+						$('a[href*="#"]:not([href="#"])').click(function() {
+							if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+								var target = $(this.hash);
+								target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+								if (target.length) {
+									$('html, body').animate({
+										scrollTop: target.offset().top
+									}, 1000);
+									return false;
+								}
+							}
+						});
+					});
+					</script>
     </body>
 
 </html>
