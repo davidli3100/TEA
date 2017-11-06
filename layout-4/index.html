@@ -274,16 +274,23 @@
 							sr.reveal('.post-left', {
 								duration: 2000,
 								origin:'left',
-								distance:'300px'
+								distance:'300px',
+								viewFactor: 0.3
 							});
 							sr.reveal('.post-right', {
 								duration: 2000,
 								origin:'right',
-								distance:'300px'
+								distance:'300px',
+								viewFactor: 0.3
 							});
 							sr.reveal('.btn-read-more', {
 								duration: 2000,
-								delay: 2000,
+								delay: 1200,
+								origin:'bottom'
+							});
+							sr.reveal('footer', {
+								duration: 2000,
+								viewFactor: 0.2,
 								origin:'bottom'
 							});
 					</script>
