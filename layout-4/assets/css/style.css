@@ -8,6 +8,90 @@ body {
     text-align: center;
 }
 
+/** disqus styling **/
+.disqus {
+	padding: 0 5rem 0 5rem;
+}
+/** end disqus **/
+
+/** related post cards on posts **/
+
+.related-post-container {
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-bottom: 5%;
+}
+
+.related-card-div {
+	box-shadow: 10px 10px 120px  #b23bbd;
+	margin: 3rem 1rem 3rem 1rem;
+	border-radius: 15px;
+	
+}
+@media (min-width: 0px) and (max-width: 1199px) {
+	.related-card-image {
+		background-image: url(../img/samples/pic2.jpg);
+		background-repeat:  no-repeat;
+		background-size: contain;
+		object-fit: none;
+		object-position: center;
+		background-position: center center;
+		min-height: 15rem;
+		height: 100%; 
+		margin-top: 3rem !important;
+		top: 1rem;
+	}
+}
+.related-card-image {
+	background-image: url(../img/samples/pic2.jpg);
+	background-repeat:  no-repeat;
+	background-size: contain;
+    object-fit: none;
+    object-position: center;
+    background-position: center center;
+	min-height: 15rem;
+	height: 100%; 
+	margin-top: 7rem;
+}
+
+.related-post-text {
+	padding-top: 2rem;
+	padding-bottom: 2rem; 
+}
+
+/** post - page **/
+
+.post-page-text {
+	padding-top: 3rem; 
+}
+
+.post-page-content {
+	margin-bottom: 5rem; 
+}
+
+.post-page-title {
+	padding-top: 2rem; 
+}
+
+@media (min-width: 0px) and (max-width: 1199px) {
+	.post-content-text {
+		
+			margin-left: 0rem !important;
+			margin-right: 0rem !important;  
+		}
+}
+
+.post-content-text {
+
+	margin-left: 20rem;
+	margin-right: 20rem;  
+}
+
+.post-content-img {
+	margin-top: 3rem; 
+}
+
+/** end post page **/
 
 
 .button-donate {
@@ -261,6 +345,18 @@ ul.navbar-nav li a.btn-link-3:active:focus { outline: 0; background: #63a736; co
 .top-content .description a { color: #fff; border-bottom: 1px dotted #fff; }
 .top-content .description a:hover, .top-content .description a:focus { color: #fff; border: 0; }
 
+/** post-heading-image **/
+
+.post-heading-image { padding: 120px 0 150px 0; }
+
+.post-heading-image .text { padding-top: 60px; color: #fff; }
+.post-heading-image .text h1 { color: #fff; }
+
+.post-heading-image .description { margin: 30px 0 10px 0; }
+.post-heading-image .description p { opacity: 0.8; }
+.post-heading-image .description a { color: #fff; border-bottom: 1px dotted #fff; }
+.post-heading-image .description a:hover, .top-content .description a:focus { color: #fff; border: 0; }
+
 
 /***** Features *****/
 
@@ -272,9 +368,9 @@ ul.navbar-nav li a.btn-link-3:active:focus { outline: 0; background: #63a736; co
 /***** Footer *****/
 
 .socialText {
-	margin-left: 3rem; 
 	color: #fff !important;
-	font-size: 2.8rem; 
+	font-family: "josefin sans";
+	font-size: 2.5rem; 
 	line-height: 4rem; 
 	font-weight: 400; 
 }
@@ -288,7 +384,7 @@ footer div.social-media-links {
   }
   footer div.social-media-links ul {
 	margin: 0;
-	padding: 0;
+	padding: 0 3rem 0 0;
   }
   footer div.social-media-links li {
 	display: inline;
@@ -347,14 +443,20 @@ footer div.social-media-links {
 
 
 footer { 
-	margin-top: 5rem; 
+	position: relative;
+	clear: both;
 	padding: 40px 0 45px 0;
 	background-image: url(../img/backgrounds/RainbowBanner.png);
 	background-size: cover;
 	object-fit: none; 
 	object-position: center;
 	background-position: center center;
-	height: 300px; 
+	height: 30rem; 
+ }
+
+ @media (min-width: 0px) and (max-width: 1199px) {
+	.footer-copyright { padding-top: 2rem !important; color: #fff; }
+	
  }
 
 .footer-copyright { padding-top: 22rem; color: #fff;}
