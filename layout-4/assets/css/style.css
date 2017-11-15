@@ -8,6 +8,13 @@ body {
     text-align: center;
 }
 
+/** reviews page **/
+.all-reviews-title {
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+}
+/** end reviews **/
+
 /** disqus styling **/
 .disqus {
 	padding: 0 5rem 0 5rem;
